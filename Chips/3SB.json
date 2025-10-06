@@ -1,0 +1,119 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "3SB",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "ShouldBeCached": false,
+  "Size": {
+    "x": 0.575,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 0.2991579,
+    "g": 0.143685549,
+    "b": 0.6370841,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":370906639,
+      "Position":{
+        "x":-3.75,
+        "y":10.5625
+      },
+      "BitCount":"1",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    },
+    {
+      "Name":"IN",
+      "ID":20266430,
+      "Position":{
+        "x":-3.75,
+        "y":10.0625
+      },
+      "BitCount":"1",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1335953159,
+      "Position":{
+        "x":0.75,
+        "y":10.375
+      },
+      "BitCount":"1",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"3-STATE BUFFER",
+      "ID":1586581012,
+      "Label":"",
+      "Position":{
+        "x":-1.27331,
+        "y":10.37182
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":370906639
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1586581012
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":20266430
+      },
+      "TargetPinAddress":{
+        "PinID":1,
+        "PinOwnerID":1586581012
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":1586581012
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1335953159
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[],
+  "HasCustomLayout": false
+}

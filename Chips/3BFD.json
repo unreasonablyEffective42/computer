@@ -1,0 +1,169 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "3BFD",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "ShouldBeCached": false,
+  "Size": {
+    "x": 0.725,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 0.486660451,
+    "g": 0.7619506,
+    "b": 0.6012287,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":403745853,
+      "Position":{
+        "x":-3.0,
+        "y":6.5
+      },
+      "BitCount":"1",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    },
+    {
+      "Name":"ENABLE",
+      "ID":1748164273,
+      "Position":{
+        "x":-3.0,
+        "y":6.0
+      },
+      "BitCount":"1",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":613808204,
+      "Position":{
+        "x":3.375,
+        "y":6.1875
+      },
+      "BitCount":"1",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"3-STATE BUFFER",
+      "ID":1540030156,
+      "Label":"",
+      "Position":{
+        "x":-0.5379,
+        "y":6.19778
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2}],
+      "InternalData":null
+    },
+    {
+      "Name":"NOT",
+      "ID":1393297952,
+      "Label":"",
+      "Position":{
+        "x":0.9225,
+        "y":6.1875
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1302814366}],
+      "InternalData":null
+    },
+    {
+      "Name":"NOT",
+      "ID":1794198669,
+      "Label":"",
+      "Position":{
+        "x":1.9225,
+        "y":6.1875
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1302814366}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":403745853
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1540030156
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1748164273
+      },
+      "TargetPinAddress":{
+        "PinID":1,
+        "PinOwnerID":1540030156
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":1540030156
+      },
+      "TargetPinAddress":{
+        "PinID":306596103,
+        "PinOwnerID":1393297952
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1302814366,
+        "PinOwnerID":1393297952
+      },
+      "TargetPinAddress":{
+        "PinID":306596103,
+        "PinOwnerID":1794198669
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1302814366,
+        "PinOwnerID":1794198669
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":613808204
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[],
+  "HasCustomLayout": false
+}

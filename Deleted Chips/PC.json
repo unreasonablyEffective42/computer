@@ -1,0 +1,46 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "PC",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "ShouldBeCached": false,
+  "Size": {
+    "x": 1.25,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 0.166180089,
+    "g": 0.60934037,
+    "b": 0.496492952,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"3-DIGIT-BUS",
+      "ID":526666087,
+      "Label":"",
+      "Position":{
+        "x":-7.015,
+        "y":5.8125
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    },
+    {
+      "Name":"8 COUNT",
+      "ID":622388647,
+      "Label":"",
+      "Position":{
+        "x":-9.8525,
+        "y":5.4375
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":76280795},{"PinColour":0,"PinID":516538427}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[],
+  "Displays": null,
+  "HasCustomLayout": false
+}

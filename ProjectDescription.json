@@ -1,0 +1,314 @@
+{
+  "ProjectName": "Computer",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "DLSVersion_LastSavedModdedVersion": "1.1.2",
+  "CreationTime": "2025-08-20T18:37:13.553-06:00",
+  "LastSaveTime": "2025-09-04T14:17:33.658-06:00",
+  "Prefs_MainPinNamesDisplayMode": 2,
+  "Prefs_ChipPinNamesDisplayMode": 2,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 0,
+  "Prefs_StraightWires": 0,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "Perfs_PinIndicators": 1,
+  "StepsRanSinceCreated": 593507271,
+  "TimeSpentSinceCreated": {
+    "StartFrom": "9.08:25:08.4249033"
+  },
+  "AllCustomChipNames":[
+    "NOT",
+    "AND",
+    "OR",
+    "XOR",
+    "NOR",
+    "SR LATCH",
+    "D FLIP",
+    "1-REG",
+    "8-REG",
+    "1-ADD",
+    "4-ADD",
+    "8-ADD BUS",
+    "8-ADD",
+    "8-NEG",
+    "DABBLE",
+    "DOUBLE D",
+    "3-OR",
+    "4-OR",
+    "3-AND",
+    "4-AND",
+    "7-SEG DECODER",
+    "7RIP",
+    "3-DIGIT",
+    "8-REG-DISP",
+    "8-INV",
+    "8 BUFF LU",
+    "8 BUFF D",
+    "8 BUFF U",
+    "8 BUFF R",
+    "MERGE 2",
+    "MERGE 1",
+    "MERGE 3",
+    "MERGE 4",
+    "8-REG-DISP-ADV",
+    "S REGISTER",
+    "2-MUX",
+    "3-NAND",
+    "4-MUX",
+    "3-MUX",
+    "4-MUX-S",
+    "RSR LATCH",
+    "XOR-R",
+    "XOR-N-R",
+    "MS-FF",
+    "MS-FF-R",
+    "SI REGISTER",
+    "8 EQ",
+    "XNOR",
+    "8-XOR",
+    "8-AND",
+    "8-OR",
+    "8 BUFF L",
+    "MERGE 1 ddr",
+    "MERGE 2l1r",
+    "3-DIGIT-BUS",
+    "ALU",
+    "TESTBENCH-v2",
+    "8 BUFF LDP",
+    "8-1 OR",
+    "8 LDP",
+    "8 URP",
+    "8 PUL",
+    "RAM-16-256",
+    "2B DEMUX",
+    "IO CONTROLLER",
+    "6-AND",
+    "6-AND-B",
+    "8 COUNT",
+    "8-2 MUX",
+    "PC",
+    "1-B-GT",
+    "8-B-COMP",
+    "8-ZERO",
+    "8-ZERO-B",
+    "2-8MUX ",
+    "TESTBENCH-MEM-IO-F",
+    "IO CONTROLLER HELP",
+    "8-DECODER-BASE",
+    "AND-8",
+    "IO-CON",
+    "OR-L",
+    "INS-DEC",
+    "testd",
+    "idecode",
+    "CONTROL UNIT",
+    "IO-DEC",
+    "6-REG",
+    "INS-DEC-HELPER",
+    "OR-8",
+    "1-D-EDGE",
+    "6-CYCLE",
+    "3BFD",
+    "2-M",
+    "4-CYCLE",
+    "3SB"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"MEMORY",
+      "IsCollection":true
+    },
+    {
+      "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"BUS",
+      "IsCollection":true
+    },
+    {
+      "Name":"BASIC",
+      "IsCollection":true
+    },
+    {
+      "Name":"DISPLAY",
+      "IsCollection":true
+    },
+    {
+      "Name":"GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"DECODERS",
+      "IsCollection":true
+    },
+    {
+      "Name":"ARITHMETIC",
+      "IsCollection":true
+    },
+    {
+      "Name":"BUFFER",
+      "IsCollection":true
+    },
+    {
+      "Name":"ALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"TESTBENCH-v2",
+      "IsCollection":false
+    },
+    {
+      "Name":"IO CONTROLLER HELP",
+      "IsCollection":false
+    },
+    {
+      "Name":"8-DECODER-BASE",
+      "IsCollection":false
+    },
+    {
+      "Name":"IO-CON",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR-L",
+      "IsCollection":false
+    },
+    {
+      "Name":"INS-DEC",
+      "IsCollection":false
+    },
+    {
+      "Name":"CONTROL UNIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"IO-DEC",
+      "IsCollection":false
+    },
+    {
+      "Name":"INS-DEC-HELPER",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"1-D-EDGE",
+      "IsCollection":false
+    },
+    {
+      "Name":"6-CYCLE",
+      "IsCollection":false
+    },
+    {
+      "Name":"3BFD",
+      "IsCollection":false
+    },
+    {
+      "Name":"2-M",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-CYCLE",
+      "IsCollection":false
+    },
+    {
+      "Name":"3SB",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","PULSE","KEY","3-STATE BUFFER","CONST"],
+      "IsToggledOpen":false,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["BUTTON","DIPSWITCH","IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8","IN-6","OUT-6","IN-7","OUT-7"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8","BUS-6","BUS-7"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED","7RIP","3-DIGIT","3-DIGIT-BUS"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["MERGE 1","MERGE 2","MERGE 3","MERGE 4","1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT","1-6BIT","6-1BIT","1-7BIT","7-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["RSR LATCH","D FLIP","SR LATCH","MS-FF","MS-FF-R","1-REG","8-REG","SI REGISTER","8-REG-DISP-ADV","S REGISTER","8-REG-DISP","ROM 256×16","EEPROM 256×16","RAM-8","RAM-16-256","PC","6-REG"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["4-MUX-S","2-MUX","4-MUX","3-MUX","7-SEG DECODER","DABBLE","DOUBLE D","2B DEMUX","2-8MUX ","8-2 MUX"],
+      "IsToggledOpen":false,
+      "Name":"DECODERS"
+    },
+    {
+      "Chips":["8 BUFF R","8 BUFF U","8 BUFF D","8 BUFF LU","8 BUFF L","8 BUFF LDP","8 LDP","8 URP","8 PUL","MERGE 1 ddr","MERGE 2l1r"],
+      "IsToggledOpen":false,
+      "Name":"BUFFER"
+    },
+    {
+      "Chips":["8-1 OR","6-AND-B","6-AND","XOR-N-R","XOR-R","8-XOR","8-OR","8-AND","XNOR","3-NAND","4-AND","3-AND","4-OR","3-OR","NOR","AND","OR","XOR","NAND","NOT","AND-8"],
+      "IsToggledOpen":true,
+      "Name":"GATES"
+    },
+    {
+      "Chips":["DETECTOR","BUZZER","SPS","RTC","ALU","TESTBENCH-v2","IO CONTROLLER","TESTBENCH-MEM-IO-F","IO CONTROLLER HELP","8-DECODER-BASE","IO-CON","OR-L","INS-DEC","testd","idecode","CONTROL UNIT","IO-DEC"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["8-ZERO-B","8-ZERO","8-B-COMP","1-B-GT","8 COUNT","8 EQ","8-INV","8-NEG","1-ADD","4-ADD","8-ADD BUS","8-ADD"],
+      "IsToggledOpen":false,
+      "Name":"ARITHMETIC"
+    }
+  ],
+  "pinBitCounts":[
+    "1",
+    "4",
+    "8",
+    "6",
+    "7"
+  ],
+  "SplitMergePairs":[
+    {
+      "Key":"8",
+      "Value":"4"
+    },
+    {
+      "Key":"8",
+      "Value":"1"
+    },
+    {
+      "Key":"4",
+      "Value":"1"
+    },
+    {
+      "Key":"6",
+      "Value":"1"
+    },
+    {
+      "Key":"7",
+      "Value":"1"
+    }
+  ]
+}

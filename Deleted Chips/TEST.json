@@ -1,0 +1,68 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "TEST",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "ShouldBeCached": false,
+  "Size": {
+    "x": 1.475,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.239698216,
+    "g": 0.199905083,
+    "b": 0.09574696,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"ALU",
+      "ID":1919003912,
+      "Label":"",
+      "Position":{
+        "x":-1.0,
+        "y":-1.885
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1640547710},{"PinColour":0,"PinID":1749383067},{"PinColour":0,"PinID":485398438},{"PinColour":0,"PinID":593115500},{"PinColour":0,"PinID":911463431},{"PinColour":0,"PinID":137326432},{"PinColour":0,"PinID":83751495},{"PinColour":0,"PinID":2084553652},{"PinColour":0,"PinID":191476427},{"PinColour":0,"PinID":1864219096},{"PinColour":0,"PinID":1649026499},{"PinColour":0,"PinID":1642217748},{"PinColour":0,"PinID":1741471175},{"PinColour":0,"PinID":363758762},{"PinColour":0,"PinID":1628911098},{"PinColour":0,"PinID":1445090109}],
+      "InternalData":null
+    },
+    {
+      "Name":"8-REG-DISP-ADV",
+      "ID":1386174847,
+      "Label":"",
+      "Position":{
+        "x":-4.5,
+        "y":2.01
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1916795715},{"PinColour":0,"PinID":748028172},{"PinColour":0,"PinID":1402713860}],
+      "InternalData":null
+    },
+    {
+      "Name":"8-REG-DISP-ADV",
+      "ID":766457756,
+      "Label":"",
+      "Position":{
+        "x":-1.0,
+        "y":2.01
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1916795715},{"PinColour":0,"PinID":748028172},{"PinColour":0,"PinID":1402713860}],
+      "InternalData":null
+    },
+    {
+      "Name":"8-REG-DISP-ADV",
+      "ID":743517019,
+      "Label":"",
+      "Position":{
+        "x":2.5,
+        "y":2.01
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1916795715},{"PinColour":0,"PinID":748028172},{"PinColour":0,"PinID":1402713860}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[],
+  "Displays": null,
+  "HasCustomLayout": false
+}

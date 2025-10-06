@@ -1,0 +1,62 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "idecode",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "ShouldBeCached": false,
+  "Size": {
+    "x": 1.175,
+    "y": 1.0
+  },
+  "Colour": {
+    "r": 0.509359658,
+    "g": 0.582273841,
+    "b": 0.652756751,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":1885263092,
+      "Position":{
+        "x":-7.125,
+        "y":2.0625
+      },
+      "BitCount":"8",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    },
+    {
+      "Name":"IN",
+      "ID":40962739,
+      "Position":{
+        "x":-7.125,
+        "y":1.5625
+      },
+      "BitCount":"8",
+      "Colour":0,
+      "ValueDisplayMode":0,
+      "face":1,
+      "LocalOffset":0.0
+    }
+  ],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"INS-DEC",
+      "ID":1357143041,
+      "Label":"",
+      "Position":{
+        "x":-1.37963,
+        "y":2.08333
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1574411346},{"PinColour":0,"PinID":1512882966},{"PinColour":0,"PinID":1699680171},{"PinColour":0,"PinID":578963312},{"PinColour":0,"PinID":1800115587},{"PinColour":0,"PinID":404276605},{"PinColour":0,"PinID":417729089},{"PinColour":0,"PinID":2012166702},{"PinColour":0,"PinID":1409623976},{"PinColour":0,"PinID":1637408048},{"PinColour":0,"PinID":460231210},{"PinColour":0,"PinID":1691378754},{"PinColour":0,"PinID":1597854735},{"PinColour":0,"PinID":1527235018},{"PinColour":0,"PinID":489703973},{"PinColour":0,"PinID":572778106},{"PinColour":0,"PinID":430574826},{"PinColour":0,"PinID":734710946},{"PinColour":0,"PinID":172419712},{"PinColour":0,"PinID":1494801322},{"PinColour":0,"PinID":1401514821},{"PinColour":0,"PinID":1934020281},{"PinColour":0,"PinID":1246810684},{"PinColour":0,"PinID":289344736},{"PinColour":0,"PinID":1554536295},{"PinColour":0,"PinID":302271725},{"PinColour":0,"PinID":1192539245}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[],
+  "Displays": null,
+  "HasCustomLayout": false
+}

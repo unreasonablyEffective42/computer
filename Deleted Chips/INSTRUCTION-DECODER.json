@@ -1,0 +1,23 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "INSTRUCTION-DECODER",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "ShouldBeCached": false,
+  "Size": {
+    "x": 2.975,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 0.5082888,
+    "g": 0.657187641,
+    "b": 0.6110448,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[],
+  "SubChips":[],
+  "Wires":[],
+  "Displays": null,
+  "HasCustomLayout": false
+}
